@@ -1,7 +1,7 @@
 import sys
 import itertools
 
-# This function will helps in dealing with numbers having length 2 or greater i.e. 12, 34, 50 or 100 etc.
+# This function will help in dealing with numbers having length 2 or greater i.e. 12, 34, 50 or 100 etc.
 # It converts 50 into [5, 0] and 100 into [1, 0, 0]
 def solve(inp):
     arr = [int(i) for i in inp]
